@@ -1,0 +1,5 @@
+[env]
+CC = "gcc"
+CXX = "g++"
+CMAKE_GENERATOR = "Ninja"
+LIBCLANG_PATH = "C:\\Program Files\\LLVM\\bin"

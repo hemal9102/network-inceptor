@@ -1,0 +1,14 @@
+# Rust build artifacts
+target/
+Cargo.lock
+
+# Browser automation profile & runtime cache
+edge_profile/
+
+# Temporary and local debug dumps
+*.db
+*.log
+hr.txt
+dom_check.py
+dom_inputs.py
+test_fetch.js

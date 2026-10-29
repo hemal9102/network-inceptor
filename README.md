@@ -38,10 +38,10 @@ flowchart TD
         end
     end
 
-    CDP_HTTP -->|1. Discover active targets| Init
-    Init -->|2. Resolve WebSocket URL| WS_Client
-    WS_Client <-->|3. Full-Duplex JSON-RPC Frame Stream| CDP_WS
-    AtomicCoord -->|Monotonic Msg IDs| WS_Client
+    CDP_HTTP -->|"1. Discover active targets"| Init
+    Init -->|"2. Resolve WebSocket URL"| WS_Client
+    WS_Client <-->|"3. Full-Duplex JSON-RPC Frame Stream"| CDP_WS
+    AtomicCoord -->|"Monotonic Msg IDs"| WS_Client
     WS_Client --> Router
     Router --> NetEnable
     Router --> ReqFilter
